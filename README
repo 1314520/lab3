@@ -1,3 +1,30 @@
 /*A*/
 make
 /*B*/
+The size is 1000
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0.01 seconds
+v1/v2 are the same.
+
+The size is 10000
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 1.27 seconds
+v1/v2 are the same.
+
+The size is 100000
+sort(): 0.05 seconds
+v1/v2 are different.
+insertion_sort(): 127.1 seconds
+v1/v2 are different.
+
+The size is 1000000
+sort(): 0.51 seconds
+v1/v2 are different.
+
+
+
+
+因為insertion sort 是每個數都要互相比較所以要O(N^2)
+而sort()函數則不用所以只要O(n log n)
